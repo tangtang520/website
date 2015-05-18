@@ -1,0 +1,104 @@
+.logo{
+    width:75%;
+    height: 100px;
+}
+
+.logo_image{
+    width: 80px;
+    height:80px;
+    margin-top:10px;
+    float: left;
+    margin-left:120px;
+}
+.logo_name{
+    color: cornflowerblue;
+    font-size: 48px;
+    margin-top: 30px;
+    font-weight:900;
+    float: right;
+    color: gray;
+
+}
+
+.images{
+    float: left;
+    width: 320px;
+    height: 420px;
+    padding-top: 50px;
+    padding-left: 20%;
+}
+
+.contact{
+    padding-top: 8%;
+    width: 300px;
+    height: 400px;
+    float: left;
+    padding-left: 20%;
+}
+
+.contact div img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding-right:10px;
+}
+.contact div p{
+    font-weight: bold;
+    color: darkgray;
+}
+.contact h3{
+    padding-left: 23px;
+    padding-bottom: 50px;
+}
+.contact p{
+    color: darkgray;
+    font-weight: bold;
+
+}
+hr{
+    color: lightgray;
+}
+.qq{
+    width: 10%;
+    float: right;
+}
+.nav-menu{
+    font-size: 18px;
+    padding-left:20%;
+}
+.nav-menu a{
+    padding-right: 5%;
+    color: darkgray;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot {
+    margin-top: 520px;
+    height: 14px;
+    padding-left: 18%;
+    padding-right: 20%;
+}
+.foot p{
+  background-color: lightgray;
+    font-size: 16px;
+}
+.text{
+
+}
+.pro img{
+    width:50%;
+    height: auto;
+    padding-left: 15%;
+    padding-top: 6%;
+    /*float: left;*/
+}
+@media screen and (max-device-width: 480px) {
+    #divMain{
+        float: none;
+        width:auto;
+    }
+    #divSidebar {
+        display:none;
+    }
+}
